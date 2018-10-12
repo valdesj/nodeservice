@@ -1,0 +1,16 @@
+{
+  "name": "my-node-api",
+  "version": "0.5.0",
+  "description": "API for serving data",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js NODE_ENV=test ",
+    "start": "PORT=4205 nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "joi": "^13.6.0",
+    "ng2-opd-popup": "^1.1.21"
+  }
+}
